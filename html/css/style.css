@@ -1,26 +1,17 @@
 html {background:#D0D9E2;}
-body {color:#333; font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;margin:0 0 0 0;}
+body {color:#333; font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; margin:0 0 0 0;}
 
-.header { margin:1em auto 1em auto; width:754px; font-family: "Lucida Grande", Tahoma;}
+.header {margin:1em auto 1em auto; width:858px;}
 .header img {display: block; padding: 0 0 1em 0;}
 
-.header #nav {background:#fff; position: relative; bottom repeat-x; text-align: center; margin: 0 auto; padding: 1em 0 1em 0; -moz-border-radius:11px; -khtml-border-radius:11px; -webkit-border-radius:11px; border-radius:11px; border:1px solid #dfdfdf;}
-.header #nav ul {display: block; max-width: 900px; text-align: left; margin: 0 auto; list-style: none;}
-.header #nav li {display: inline;padding-bottom: 4px;}
-.header #nav a {margin: 3px 4px 0 0; padding: 4px 15px 4px 15px; color: #31363e; text-decoration: none;}
-.header #nav a:hover {position: relative; background: url(../images/nav_tl.gif) top left no-repeat #ccc; color: #202429;}
-.header #nav #current a {position: relative; background: url(../images/nav_tl.gif) top left no-repeat #a2a4a5; color: #fff;}
-.header .nav_tr {position: absolute; top: 0; right: 0; display: block; width: 4px; height: 4px; background: url(../images/nav_tr.gif) top right;}
-.header .nav_bl {position: absolute; bottom: 0; left: 0; display: block; width: 4px; height: 4px; background: url(../images/nav_bl.gif) bottom left;}
-.header .nav_br {position: absolute; bottom: 0; right: 0; display: block; width: 4px; height: 4px; background: url(../images/nav_br.gif) bottom right;}
-.header #nav a span {display: none;}
-.header #nav a:hover span, #nav #current a span {display: block;}
+.header #menu {background:#ffffff; text-align: left; margin: 0 auto; padding: 1em 0 1em 0; -moz-border-radius:11px; -khtml-border-radius:11px; -webkit-border-radius:11px; border-radius:11px; border:1px solid #dfdfdf;}
 
-.content {background:#fff; color:#333; font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; margin:0 auto 0 auto; width:700px; height:500px; padding:1em 2em; -moz-border-radius:11px;-khtml-border-radius:11px; -webkit-border-radius:11px; border-radius:11px; border:1px solid #dfdfdf;}
+.header #menu #itens {margin: 0 1em 0 1em;}
+.header #menu #item {display: inline; text-align: center;}
+.header #menu #sep {display: inline; border-right: 1px solid #dfdfdf;}
+.header #menu a {font-family: "Tahoma", sans-serif; font-size: 12px; line-height: 14px; letter-spacing: 2px; color: #6488A5; margin: 3px 4px 3px 4px; padding: 4px 15px 4px 15px; text-decoration: none;}
+.header #menu a:hover {color: #404040;}
 
-.content #menu {background:#c0c0c0; text-align: center; margin: 0 auto; padding: 1em 0 1em 0; width: 1000;}
-.content #menu ul {display: block; text-align: left; margin: 0 auto; list-style: none;}
-.content #menu li {display: inline;padding-bottom: 4px;}
-.content #menu a {margin: 3px 4px 0 0; padding: 4px 15px 4px 15px; color: #31363e; text-decoration: none;}
+.content {background:#fff; color:#333; font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; margin:0 auto 0 auto; width:800px; height:500px; padding:1em 2em; -moz-border-radius:11px; -khtml-border-radius:11px; -webkit-border-radius:11px; border-radius:11px; border:1px solid #dfdfdf;}
 
 .footer {background:#6488A5; width:100%; height:200px; margin: 2em 0 0 0;}
