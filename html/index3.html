@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Organizadores</title>
+
+	<script type="text/javascript" src="js/jquery-1.2.6.js"></script>
+	<script type="text/javascript" src="js/startstop-slider.js"></script>
+
+</head>
+
+<style type="text/css">
+html {
+    background: #ffffff;
+    margin: 0 0 0 0;
+}
+body {
+    font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+    margin: 0 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+a img {
+    border: none;
+}
+
+.header {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    background: #D0D9E2;
+}
+.header img {
+    display: block;
+    padding: 1em 0 1em 0;
+    margin: 0 auto;
+}
+
+#menu {
+    background: #6488A5;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 1em auto;
+    padding: 6px 0 6px 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#menu #itens {
+    margin: 0 1em 0 1em;
+}
+#menu #item {
+    display: inline;
+    text-align: center;
+}
+#menu a {
+    font-family: "Tahoma", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #D0D9E2;
+    margin: 3px 4px 3px 4px;
+    padding: 4px 15px 4px 15px;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #ffffff;
+}
+
+/* --------------------------------------------- */
+
+#content {
+    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    margin: 0 auto 0 auto;
+    padding: 1em 2em;
+    width: 960px;
+    height: 700px;
+    border: 0px solid #000000;
+}
+
+.rounded-corners {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.rounded-corners-button {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: #6488A5;
+}
+
+.highlight-border {
+    border: 1px solid #bfbfbf;
+}
+
+#highlight-slide {
+    width: 948px;
+    height: 364px;
+    margin: 0 0 1em 0;
+    background: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.highlight-vertical {
+    width: 200px;
+    height: 330px;
+    margin: 0 1em 0 0;
+    float: left;
+}
+
+.highlight-horizontal {
+    width: 300px;
+    height: 194px;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+.highlight-blog {
+    width: 142px;
+    height: 120px;
+    margin: 1em 0 0 0;
+    float: left;
+}
+
+.highlight-twitter {
+    width: 142px;
+    height: 120px;
+    margin: 1em 0 0 1em;
+    float: left;
+}
+
+/* --------------------------------------------- */
+
+.footer {
+    background: #6488A5;
+    width: 100%;
+    height: 35px;
+    margin: 1em 0 0 0;
+}
+.footer div {
+    font-family: "Tahoma", sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #D0D9E2;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    width: 856px;
+    margin: 0 auto 0 auto;
+    border: 0px solid black;
+}
+
+#mover           { width: 2880px; position: relative; }
+.slide           { padding: 20px 30px; width: 900px; float: left; position: relative; }
+.slide h1        { font-family: Lucida, Verdana, Trebuchet, Arial, San Serif; font-size: 32px; letter-spacing: -1px; color: #6488A5; font-weight: normal; }
+.slide p         { color: #999999; font-size: 12px; line-height: 22px; width: 300px; }
+.slide img       { position: absolute; top: 30px; left: 400px; border: 1px dotted #cfcfcf; }
+.slide .btn-more { position: absolute; top: 300px; left: 220px; background: #D0D9E2; padding: 3px 12px; }
+#slider-stopper  { position: absolute; top: 10px; right: 20px; background: #D0D9E2; padding: 3px 8px; font-size: 10px; text-transform: lowercase; z-index: 1000; }
+
+</style>
+
+<body>
+
+<div class="header">
+    <img src="images/newlogo.png" border="0"/>
+</div>
+
+<div id="menu">
+  <div id="itens">
+      <div id="item"><a href="#">Home</a></div>
+      <div id="item"><a href="#">Produtos</a></div>
+      <div id="item"><a href="#">Blog</a></div>
+      <div id="item"><a href="#">Sobre nós</a></div>
+      <div id="item"><a href="#">Contato</a></div>
+  </div>
+</div>
+
+
+<div id="content">
+
+    <div id="highlight-slide" class="rounded-corners highlight-border">
+
+	        <div id="mover">
+
+				<div id="slide-1" class="slide">
+					<h1>Sacos para sapato</h1>
+					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+                    <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
+					<a href="#"><img src="images/dsc_0016.jpg" alt="saiba mais" /></a>
+				</div>
+				
+				<div class="slide">
+					<h1>Sacos para sapato 2</h1>
+					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+                    <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
+					<a href="#"><img src="images/dsc_0017.jpg" alt="saiba mais" /></a>
+				</div>
+				
+				<div class="slide">
+					<h1>Porta camisas 3</h1>
+					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+                    <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
+					<a href="#"><img src="images/dsc_0038.jpg" alt="saiba mais" /></a>
+				</div>
+
+				<div class="slide">
+					<h1>Porta camisas 4</h1>
+					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
+                    <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
+					<a href="#"><img src="images/dsc_0046.jpg" alt="saiba mais" /></a>
+				</div>
+
+	        </div>
+
+    </div>
+
+    <div id="highlight-vertical-1" class="rounded-corners highlight-vertical highlight-border">
+    </div>
+
+    <div id="highlight-vertical-2" class="rounded-corners highlight-vertical highlight-border">
+    </div>
+
+    <div id="highlight-vertical-3" class="rounded-corners highlight-vertical highlight-border">
+    </div>
+
+    <div id="highlight-horizontal" class="rounded-corners highlight-horizontal highlight-border">
+    </div>
+
+    <div id="highlight-blog" class="rounded-corners highlight-blog highlight-border">
+    </div>
+
+    <div id="highlight-twitter" class="rounded-corners highlight-twitter highlight-border">
+    </div>
+
+</div>
+
+<div class="footer">
+    <div>
+        Home &nbsp;|&nbsp; Produtos &nbsp;|&nbsp; Blog &nbsp;|&nbsp; Sobre nós &nbsp;|&nbsp; Contato
+        &nbsp;&nbsp;&nbsp; &copy; Copyright 2010. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
