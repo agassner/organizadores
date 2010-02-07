@@ -71,7 +71,7 @@ a img {
     border: 0px solid #000000;
 }
 
-#content h2 {
+#content h3 {
     margin: 10px 7px 5px 7px;
     color: #585858;
     font-size: 16px;
@@ -198,18 +198,22 @@ a img {
     float: left;
     position: relative;
 }
-.slide h1 {
+.slide .head-slide, .slide h1 {
     font-family: Lucida, Verdana, Trebuchet, Arial, San Serif;
     font-size: 32px;
+    font-weight: normal;
     letter-spacing: -1px;
     color: #6488A5;
-    font-weight: normal;
+    margin: 0;
 }
-.slide p {
-    color: #999999;
+.slide p, .slide h2 {
+    font-family: Lucida, Verdana, Trebuchet, Arial, San Serif;
     font-size: 12px;
+    font-weight: normal;
     line-height: 22px;
+    color: #999999;
     width: 300px;
+    margin: 5px 0;
 }
 .slide img {
     position: absolute;
@@ -250,7 +254,7 @@ a img {
     float: left;
     margin-left: 10px;
     position: relative;
-    background-color: blue;
+    background-color: #ffffff;
 }
 
 #products-slide-controls {

@@ -42,7 +42,7 @@ function doMove(panelWidth, tooFar) {
  * Initialize the start/stop slider.
  */
 function startStopSlider() {
-    var delayLength = 5000;
+    var delayLength = 10000;
 	
     var $slide1 = $("#slide-1");
 
