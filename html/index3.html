@@ -4,167 +4,11 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Organizadores</title>
 
-	<script type="text/javascript" src="js/jquery-1.2.6.js"></script>
-	<script type="text/javascript" src="js/startstop-slider.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 
+	<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
-
-<style type="text/css">
-html {
-    background: #ffffff;
-    margin: 0 0 0 0;
-}
-body {
-    font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
-    margin: 0 0 0 0;
-}
-
-a {
-    text-decoration: none;
-    outline: none;
-}
-a img {
-    border: none;
-}
-
-.header {
-    margin: 0 auto 0 auto;
-    width: 100%;
-    background: #D0D9E2;
-}
-.header img {
-    display: block;
-    padding: 1em 0 1em 0;
-    margin: 0 auto;
-}
-
-#menu {
-    background: #6488A5;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto 1em auto;
-    padding: 6px 0 6px 0;
-    border-bottom: 1px solid #dfdfdf;
-}
-
-#menu #itens {
-    margin: 0 1em 0 1em;
-}
-#menu #item {
-    display: inline;
-    text-align: center;
-}
-#menu a {
-    font-family: "Tahoma", sans-serif;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    color: #D0D9E2;
-    margin: 3px 4px 3px 4px;
-    padding: 4px 15px 4px 15px;
-    text-decoration: none;
-}
-#menu a:hover {
-    color: #ffffff;
-}
-
-/* --------------------------------------------- */
-
-#content {
-    font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
-    margin: 0 auto 0 auto;
-    padding: 1em 2em;
-    width: 960px;
-    height: 700px;
-    border: 0px solid #000000;
-}
-
-.rounded-corners {
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -khtml-border-radius: 20px;
-    border-radius: 20px;
-}
-
-.rounded-corners-button {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
-    border-radius: 10px;
-    color: #6488A5;
-}
-
-.highlight-border {
-    border: 1px solid #bfbfbf;
-}
-
-#highlight-slide {
-    width: 948px;
-    height: 364px;
-    margin: 0 0 1em 0;
-    background: white;
-    overflow: hidden;
-    position: relative;
-}
-
-.highlight-vertical {
-    width: 200px;
-    height: 330px;
-    margin: 0 1em 0 0;
-    float: left;
-}
-
-.highlight-horizontal {
-    width: 300px;
-    height: 194px;
-    margin: 0 0 0 0;
-    float: left;
-}
-
-.highlight-blog {
-    width: 142px;
-    height: 120px;
-    margin: 1em 0 0 0;
-    float: left;
-}
-
-.highlight-twitter {
-    width: 142px;
-    height: 120px;
-    margin: 1em 0 0 1em;
-    float: left;
-}
-
-/* --------------------------------------------- */
-
-.footer {
-    background: #6488A5;
-    width: 100%;
-    height: 35px;
-    margin: 1em 0 0 0;
-}
-.footer div {
-    font-family: "Tahoma", sans-serif;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    color: #D0D9E2;
-    text-align: center;
-    padding: 1em 0 1em 0;
-    width: 856px;
-    margin: 0 auto 0 auto;
-    border: 0px solid black;
-}
-
-#mover           { width: 2880px; position: relative; }
-.slide           { padding: 20px 30px; width: 900px; float: left; position: relative; }
-.slide h1        { font-family: Lucida, Verdana, Trebuchet, Arial, San Serif; font-size: 32px; letter-spacing: -1px; color: #6488A5; font-weight: normal; }
-.slide p         { color: #999999; font-size: 12px; line-height: 22px; width: 300px; }
-.slide img       { position: absolute; top: 30px; left: 400px; border: 1px dotted #cfcfcf; }
-.slide .btn-more { position: absolute; top: 300px; left: 220px; background: #D0D9E2; padding: 3px 12px; }
-#slider-stopper  { position: absolute; top: 10px; right: 20px; background: #D0D9E2; padding: 3px 8px; font-size: 10px; text-transform: lowercase; z-index: 1000; }
-
-</style>
 
 <body>
 
@@ -222,21 +66,49 @@ a img {
     </div>
 
     <div id="highlight-vertical-1" class="rounded-corners highlight-vertical highlight-border">
+        <h2>Dicas e Soluções</h2>
+        <div id="line"></div>
     </div>
 
     <div id="highlight-vertical-2" class="rounded-corners highlight-vertical highlight-border">
+        <h2>Produtos</h2>
+        <div id="line"></div>
     </div>
 
     <div id="highlight-vertical-3" class="rounded-corners highlight-vertical highlight-border">
+        <h2>Alguma coisa aqui</h2>
+        <div id="line"></div>
     </div>
 
     <div id="highlight-horizontal" class="rounded-corners highlight-horizontal highlight-border">
+        <h2>Produtos mais vendidos</h2>
+        <div id="line"></div>
+        <div id="products-mover">
+
+            <div id="products-slide">produto 1 mais vendido</div>
+            <div id="products-slide">produto 2 mais vendido</div>
+            <div id="products-slide">produto 3 mais vendido</div>
+
+        </div>
+        <div id="products-slide-controls">
+            <a href="javascript:void(0);" id="prev" class="rounded-corners-button">previous</a>
+            <a href="javascript:void(0);" id="next" class="rounded-corners-button">next</a>
+        </div>
     </div>
 
     <div id="highlight-blog" class="rounded-corners highlight-blog highlight-border">
+        <a href="/blog">
+            <h2>Blog</h2>
+            <div id="line"></div>
+            <p>Sempre uma novidade para você sobre os nossos produtos.</p>
+        </a>
     </div>
 
     <div id="highlight-twitter" class="rounded-corners highlight-twitter highlight-border">
+        <a href="http://twitter.com/organizadores" target="_new">
+            <img src="images/twitter_logo.png" alt="Nos acompanhe no Twitter" width="120" border="0"/>
+            <p>Acompanhe também as nossas novidades pelo Twitter.</p>
+        </a>
     </div>
 
 </div>

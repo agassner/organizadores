@@ -1,11 +1,13 @@
-// SET THIS VARIABLE FOR DELAY, 1000 = 1 SECOND
-var delayLength = 5000;
-	
+/**
+ * Execute the slide movement.
+ */
 function doMove(panelWidth, tooFar) {
 	var leftValue = $("#mover").css("left");
 	
 	// Fix for IE
-	if (leftValue == "auto") { leftValue = 0; };
+	if (leftValue == "auto") {
+        leftValue = 0;
+    };
 	
 	var movement = parseFloat(leftValue, 10) - panelWidth;
 	
@@ -21,8 +23,7 @@ function doMove(panelWidth, tooFar) {
 				});
 			});
 		});
-	}
-	else {
+	} else {
 		$(".slide img").animate({
 			"top": -350
 		}, function() {
@@ -37,7 +38,11 @@ function doMove(panelWidth, tooFar) {
 	}
 }
 
-$(function(){
+/**
+ * Initialize the start/stop slider.
+ */
+function startStopSlider() {
+    var delayLength = 5000;
 	
     var $slide1 = $("#slide-1");
 
@@ -76,4 +81,50 @@ $(function(){
 		 
 	});
 
+}
+
+/**
+ * Load some slide product config.
+ */
+function loadSlideProduct() {
+    $("#prev").click(function(){
+        slideProduct("prev");
+    });
+
+    $("#next").click(function(){
+        slideProduct("next");
+    });
+}
+
+/**
+ * Executes a manual slider.
+ */
+function slideProduct(direction) {
+    var $productsMover = $("#products-mover");
+    var elementWidth = parseInt($("#products-slide").css("width")) + 10;
+    var maxMovement = parseInt($productsMover.css("width")) - elementWidth;
+    var position = parseInt($productsMover.css("left"));
+
+    var movement = "0";
+
+    if (direction == "next") {
+        if ((position * -1) < maxMovement) {
+            movement = "-=" + elementWidth;
+        }
+    } else if (direction == "prev") {
+        if (position < 0) {
+            movement = "+=" + elementWidth;
+        }
+    }
+
+    if (movement != 0) {
+        $productsMover.animate({
+            left: movement
+        });
+    }
+}
+
+$(document).ready(function() {
+	startStopSlider();
+    loadSlideProduct();
 });
