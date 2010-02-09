@@ -39,7 +39,7 @@ a img {
     border-bottom: 1px solid #dfdfdf;
 }
 
-#menu #itens {
+#menu #items {
     margin: 0 1em 0 1em;
 }
 #menu #item {
@@ -103,7 +103,7 @@ a img {
     height: 1px;
 }
 
-/* content itens styles */
+/* content items styles */
 
 #highlight-slide {
     width: 948px;
@@ -120,6 +120,17 @@ a img {
     margin: 0 1em 0 0;
     float: left;
     text-align: center;
+}
+
+.highlight-vertical img {
+    margin: 7px;
+}
+
+.highlight-vertical p {
+    font-size: 12px;
+    color: #999999;
+    margin: 0 1em;
+    text-align: left;
 }
 
 .highlight-horizontal {
@@ -255,6 +266,7 @@ a img {
     margin-left: 10px;
     position: relative;
     background-color: #ffffff;
+    background-image: url('../images/1x1.gif')
 }
 
 #products-slide-controls {
