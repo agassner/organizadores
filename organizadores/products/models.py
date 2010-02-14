@@ -6,6 +6,10 @@ class Product(models.Model):
     #image = models.ImageField()
     price = models.DecimalField(max_digits=5, decimal_places=2)
     creation_date = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = "Produto"
+        verbose_name_plural = "Produtos"
     
 class ProductHighlight(models.Model):
     product = models.ForeignKey('Product')
@@ -13,3 +17,7 @@ class ProductHighlight(models.Model):
     subtitle = models.CharField(null=False, blank=True, max_length=200)
     content = models.TextField()
     #link
+
+    class Meta:
+        verbose_name = "Produto em destaque"
+        verbose_name_plural = "Produtos em destaque"
