@@ -1,11 +1,27 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 
+class Category(models.Model):
+    name = models.CharField(null=False, blank=False, max_length=100, verbose_name="Nome")
+
+    def __unicode__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = "Categoria"
+        verbose_name_plural = "Categorias"
+        ordering = ['name']
+
 class Product(models.Model):
-    name = models.CharField(null=False, blank=False, max_length=200)
-    description = models.TextField()
+    category = models.ForeignKey('Category')
+    name = models.CharField(null=False, blank=False, max_length=200, verbose_name="Nome")
+    description = models.TextField(verbose_name="Descrição")
     #image = models.ImageField()
-    price = models.DecimalField(max_digits=5, decimal_places=2)
-    creation_date = models.DateTimeField(auto_now_add=True)
+    price = models.DecimalField(max_digits=5, decimal_places=2, verbose_name="Preço")
+    creation_date = models.DateTimeField(auto_now_add=True, verbose_name="Data de criação")
+
+    def __unicode__(self):
+        return self.name
 
     class Meta:
         verbose_name = "Produto"
@@ -13,10 +29,13 @@ class Product(models.Model):
     
 class ProductHighlight(models.Model):
     product = models.ForeignKey('Product')
-    title = models.CharField(null=False, blank=False, max_length=200)
-    subtitle = models.CharField(null=False, blank=True, max_length=200)
-    content = models.TextField()
+    title = models.CharField(null=False, blank=False, max_length=200, verbose_name="Título")
+    subtitle = models.CharField(null=False, blank=True, max_length=200, verbose_name="Sub-título")
+    content = models.TextField(verbose_name="Conteúdo")
     #link
+
+    def __unicode__(self):
+        return self.title
 
     class Meta:
         verbose_name = "Produto em destaque"
