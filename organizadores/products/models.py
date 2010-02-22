@@ -28,10 +28,17 @@ class Product(models.Model):
         verbose_name_plural = "Produtos"
     
 class ProductHighlight(models.Model):
+    HIGHLIGHT_AREA_CHOICES = (
+        (u'S', u'Slide'),
+        (u'B', u'Box'),
+        (u'T', u'Top'),
+    )
+
     product = models.ForeignKey('Product')
     title = models.CharField(null=False, blank=False, max_length=200, verbose_name="Título")
     subtitle = models.CharField(null=False, blank=True, max_length=200, verbose_name="Sub-título")
     content = models.TextField(verbose_name="Conteúdo")
+    area = models.CharField(max_length=2, choices=HIGHLIGHT_AREA_CHOICES, verbose_name="Área de Destaque")
     #link
 
     def __unicode__(self):

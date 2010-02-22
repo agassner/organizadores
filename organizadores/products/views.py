@@ -22,3 +22,16 @@ def list_highlights(request):
 def get_highlight(request, highlight_id):
     data = serializers.serialize("json", ProductHighlight.objects.filter(pk=highlight_id), ensure_ascii=False)
     return HttpResponse(data)
+
+def list_highlights_area(request, area):
+    data = serializers.serialize("json", ProductHighlight.objects.filter(area=area), ensure_ascii=False)
+    return HttpResponse(data)
+
+def list_highlights_slide(request):
+    return list_highlights_area(request, 'S')
+
+def list_highlights_box(request):
+    return list_highlights_area(request, 'B')
+
+def list_highlights_top(request):
+    return list_highlights_area(request, 'T')
