@@ -124,7 +124,23 @@ function slideProduct(direction) {
     }
 }
 
+function loadHighlightsBoxContent() {
+    var highlightVertical = $("#highlight-vertical-1");
+    var url = "http://localhost:8000/products/highlights/box/";
+
+    $.get(url, function(data) {
+        //$.each(data.fields, function(i, item) {
+        //    $("<img/>").attr("src", item.media.m).appendTo("#images");
+        //    if ( i == 3 ) return false;
+        //});
+        //console.debug(data);
+    });
+
+}
+
 $(document).ready(function() {
 	startStopSlider();
     loadSlideProduct();
+    loadHighlightsBoxContent();
 });
+
