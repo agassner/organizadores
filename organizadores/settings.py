@@ -1,4 +1,8 @@
+# -*- coding: utf-8 -*-
+
 # Django settings for organizadores project.
+
+from os.path import join, dirname, abspath
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -6,6 +10,8 @@ TEMPLATE_DEBUG = DEBUG
 ADMINS = (
     ('Administrator', 'admin@organizadores.com.br'),
 )
+
+LOCAL_FILE = lambda *x: abspath(join(dirname(__file__), *x))
 
 MANAGERS = ADMINS
 
@@ -35,7 +41,7 @@ USE_I18N = True
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
-MEDIA_ROOT = ''
+MEDIA_ROOT = LOCAL_FILE('media')
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
@@ -45,7 +51,7 @@ MEDIA_URL = ''
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
-ADMIN_MEDIA_PREFIX = '/media/'
+ADMIN_MEDIA_PREFIX = '/admin_media/'
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'fuh1z-73%zy*^bu_k*s=grby3ql(_!b&)6p4l1io9q+c9$dutn'
@@ -66,9 +72,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'organizadores.urls'
 
 TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
+    LOCAL_FILE('templates'),
 )
 
 INSTALLED_APPS = (

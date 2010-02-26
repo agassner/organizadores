@@ -125,12 +125,15 @@ function slideProduct(direction) {
 }
 
 function loadHighlightsBoxContent() {
-    var highlightVertical = $("#highlight-vertical-1");
-    var url = "http://localhost/organizadores/products/highlights/";
+    var url = "http://localhost/products/highlights/box";
 
     $.get(url, function(data) {
         $.each(data, function(i, item) {
-            console.debug(item.pk);
+            var $highlightVertical = $("#highlight-vertical-" + (i + 1));
+            $highlightVertical.find("#highlight-title").text(item.fields.title);
+            // $highlightVertical.find("#highlight-link").text(item.fields.);
+            // $highlightVertical.find("#highlight-image");
+            $highlightVertical.find("#highlight-content").text(item.fields.content);
         });
         
     });

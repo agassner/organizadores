@@ -2,32 +2,33 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Organizadores plásticos para o lar</title>
+	<title>{% block title %}Organizadores plásticos para o lar{% endblock %}</title>
 
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="media/css/style.css" type="text/css" />
 
-	<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="media/js/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="media/js/script.js"></script>
 </head>
 
 <body>
 
 <div class="header">
-    <img src="images/newlogo.png" border="0"/>
+    <img src="media/images/newlogo.png" border="0"/>
 </div>
 
 <div id="menu">
   <div id="items">
-      <div id="item"><a href="#">Home</a></div>
-      <div id="item"><a href="#">Produtos</a></div>
-      <div id="item"><a href="#">Blog</a></div>
-      <div id="item"><a href="#">Sobre nós</a></div>
-      <div id="item"><a href="#">Contato</a></div>
+      <div id="item"><a href="index.html">Home</a></div>
+      <div id="item"><a href="produtos.html">Produtos</a></div>
+      <div id="item"><a href="/blog">Blog</a></div>
+      <div id="item"><a href="/blog/sobre">Sobre nós</a></div>
+      <div id="item"><a href="contato.html">Contato</a></div>
   </div>
 </div>
 
-
 <div id="content">
+
+    {% block content %}
 
     <div id="highlight-slide" class="rounded-corners highlight-border">
 
@@ -37,35 +38,35 @@
 					<h1>Organizadores plásticos<br/>para o lar</h1>
 					<h2>Ache aqui o ideal organizador plástico para sua casa. Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero.</h2>
                     <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
-					<a href="#"><img src="images/dsc_0016.jpg" alt="saiba mais" /></a>
+					<a href="#"><img src="media/images/dsc_0016.jpg" alt="saiba mais" /></a>
 				</div>
 
 				<div class="slide">
 					<div class="head-slide">Sacos para sapato</div>
 					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
                     <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
-					<a href="#"><img src="images/dsc_0016.jpg" alt="saiba mais" /></a>
+					<a href="#"><img src="media/images/dsc_0016.jpg" alt="saiba mais" /></a>
 				</div>
 				
 				<div class="slide">
 					<div class="head-slide">Sacos para sapato 2</div>
 					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
                     <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
-					<a href="#"><img src="images/dsc_0017.jpg" alt="saiba mais" /></a>
+					<a href="#"><img src="media/images/dsc_0017.jpg" alt="saiba mais" /></a>
 				</div>
 				
 				<div class="slide">
 					<div class="head-slide">Porta camisas 3</div>
 					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
                     <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
-					<a href="#"><img src="images/dsc_0038.jpg" alt="saiba mais" /></a>
+					<a href="#"><img src="media/images/dsc_0038.jpg" alt="saiba mais" /></a>
 				</div>
 
 				<div class="slide">
 					<div class="head-slide">Porta camisas 4</div>
 					<p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit amet ante. Maecenas tellus.</p>
                     <a href="#" class="btn-more rounded-corners-button">saiba mais</a>
-					<a href="#"><img src="images/dsc_0046.jpg" alt="saiba mais" /></a>
+					<a href="#"><img src="media/images/dsc_0046.jpg" alt="saiba mais" /></a>
 				</div>
 
 	        </div>
@@ -73,29 +74,29 @@
     </div>
 
     <div id="highlight-vertical-1" class="rounded-corners highlight-vertical highlight-border">
-        <h3>Produtos</h3>
+        <h3 id="highlight-title"></h3>
         <div id="line"></div>
-        <a href="#">
-            <img src="images/1x1.gif" width="180" height="120" />
-            <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero.</p>
+        <a href="#" id="highlight-link">
+            <img src="media/images/1x1.gif" width="180" height="120" id="highlight-image" />
+            <p id="highlight-content"></p>
         </a>
     </div>
 
     <div id="highlight-vertical-2" class="rounded-corners highlight-vertical highlight-border">
-        <h3>Dicas e Soluções</h3>
+        <h3 id="highlight-title"></h3>
         <div id="line"></div>
-        <a href="#">
-            <img src="images/1x1.gif" width="180" height="120" />
-            <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero.</p>
+        <a href="#" id="highlight-link">
+            <img src="media/images/1x1.gif" width="180" height="120" id="highlight-image" />
+            <p id="highlight-content"></p>
         </a>
     </div>
 
     <div id="highlight-vertical-3" class="rounded-corners highlight-vertical highlight-border">
-        <h3>Alguma coisa aqui</h3>
+        <h3 id="highlight-title"></h3>
         <div id="line"></div>
-        <a href="#">
-            <img src="images/1x1.gif" width="180" height="120" />
-            <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero.</p>
+        <a href="#" id="highlight-link">
+            <img src="media/images/1x1.gif" width="180" height="120" id="highlight-image" />
+            <p id="highlight-content"></p>
         </a>
     </div>
 
@@ -125,19 +126,32 @@
 
     <div id="highlight-twitter" class="rounded-corners highlight-twitter highlight-border">
         <a href="http://twitter.com/organizadores" target="_new">
-            <img src="images/twitter_logo.png" alt="Nos acompanhe no Twitter" width="120" border="0"/>
+            <img src="media/images/twitter_logo.png" alt="Nos acompanhe no Twitter" width="120" border="0"/>
             <p>Acompanhe também as nossas novidades pelo Twitter.</p>
         </a>
     </div>
+
+    {% endblock %}
 
 </div>
 
 <div class="footer">
     <div>
-        Home &nbsp;|&nbsp; Produtos &nbsp;|&nbsp; Blog &nbsp;|&nbsp; Sobre nós &nbsp;|&nbsp; Contato
+        <a href="index.html">Home</a> &nbsp;|&nbsp; <a href="produtos.html">Produtos</a> &nbsp;|&nbsp; <a href="/blog">Blog</a> &nbsp;|&nbsp; <a href="/blog/sobre">Sobre nós &nbsp;|&nbsp; <a href="contato.html">Contato<a/>
         &nbsp;&nbsp;&nbsp; &copy; Copyright 2010. All rights reserved.
     </div>
 </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-6957324-2");
+    pageTracker._trackPageview();
+} catch(err) {}
+</script>
 
 </body>
 </html>
