@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "products.category", "fields": {"name": "\u00c1rea de Servi\u00e7o"}}, {"pk": 3, "model": "products.category", "fields": {"name": "Closet & Arm\u00e1rios"}}, {"pk": 2, "model": "products.category", "fields": {"name": "Sala"}}]

@@ -83,3 +83,4 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'organizadores.products',
 )
+
