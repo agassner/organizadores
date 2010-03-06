@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Kjell Wullaert <kjell@ibiz.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "% Comments"
+msgstr "% Reacties"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Vorige artikels"
+
+#. Text in function
+#: typebased/comments.php:68
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:86
+#: typebased/comments-legacy.php:91
+msgid "(required)"
+msgstr "(verplicht)"
+
+#. Text in echo
+#: typebased/footer.php:25
+msgid "2009 TypeBased. All Rights Reserved."
+msgstr "2009 TypeBased. Alle rechten voorbehouden."
+
+#. Text in echo
+#: typebased/archive.php:14
+msgid "Archive by Author"
+msgstr "Archief volgens auteur"
+
+#. Text in echo
+#: typebased/archive.php:11
+#: typebased/archive.php:12
+msgid "Archive for"
+msgstr "Archief voor"
+
+#. Text in echo
+#: typebased/archive.php:13
+msgid "Archive for the year"
+msgstr "Jaar archief"
+
+#. Text in echo
+#: typebased/footer.php:17
+msgid "Articles"
+msgstr "Artikels"
+
+#. Text in echo
+#: typebased/comments.php:87
+#: typebased/comments-legacy.php:105
+msgid "Comment"
+msgstr "Reactie"
+
+#. Text in echo
+#: typebased/footer.php:18
+msgid "Comments"
+msgstr "Reacties"
+
+#. Text in echo
+#: typebased/comments.php:39
+msgid "Comments are closed"
+msgstr "Reactie schrijven niet mogelijk"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Design by"
+msgstr "Design door"
+
+#. Text in function
+#: typebased/comments-legacy.php:36
+msgid "Edit comment"
+msgstr "Reactie aanpassen"
+
+#. Text in echo
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:91
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: typebased/404.php:12
+msgid "Error 404 - Page not found!"
+msgstr "Fout 404 - Pagina niet gevonden!"
+
+#. Text in echo
+#: typebased/comments-legacy.php:32
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: typebased/header.php:28
+msgid "Home"
+msgstr "Home"
+
+#. Text in echo
+#: typebased/footer.php:15
+msgid "If you enjoyed the post, make sure you subscribe to the RSS feed"
+msgstr "Een beetje genoten van dit artikel, schrijf je in op onze RSS feed"
+
+#. Text in echo
+#: typebased/comments-legacy.php:70
+msgid "Leave a Comment"
+msgstr "Schrijf een reactie"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply"
+msgstr "Schrijf een reactie"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Schrijf een reactie op %s"
+
+#. Text in echo
+#: typebased/comments.php:65
+msgid "Log out of this account"
+msgstr "Uitgeloggen uit deze account"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logout &raquo;"
+msgstr "Uitloggen &raquo;"
+
+#. Text in echo
+#: typebased/footer.php:5
+msgid "Most Popular Articles"
+msgstr "Meest populaire artikels"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "No Comments"
+msgstr "Geen reacties"
+
+#. Text in echo
+#: typebased/search.php:50
+msgid "No matches. Please try again, or use the navigation menus to find what you search for"
+msgstr "Geen resultaat.  Probeer opnieuw, of gebruik de navigatie menus om te vinden wat je zoekt"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "One Comment"
+msgstr "Eén reactie"
+
+#. Text in echo
+#: typebased/includes/theme-widgets.php:13
+msgid "Photos on"
+msgstr "Foto's bij"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Powered by"
+msgstr "Powered by"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "Recent Entries &raquo;"
+msgstr "Recente artikels &raquo;"
+
+#. Text in echo
+#: typebased/search.php:8
+#: typebased/search.php:45
+msgid "Search results"
+msgstr "Zoek resultaten"
+
+#. Text in echo
+#: typebased/single.php:28
+msgid "Sorry, no posts matched your criteria"
+msgstr "Sorry, er zijn geen artikels gevonden die voldoen aan je zoekcriteria"
+
+#. Text in echo
+#: typebased/comments.php:92
+#: typebased/comments-legacy.php:110
+msgid "Submit"
+msgstr "Verstuur"
+
+#. Text in echo
+#: typebased/footer.php:14
+msgid "Subscribe to RSS"
+msgstr "Schrijf je in op onze RSS"
+
+#. Text in echo
+#: typebased/archive.php:16
+msgid "Tag Archives:"
+msgstr "Tag archief"
+
+#. Text in echo
+#: typebased/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "De pagina die je zoekt bestaat niet, of is verwijderd.  Gebruik de menus of de zoekfunctie om te vinden wat je zoekt."
+
+#. Text in echo
+#: typebased/comments.php:7
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Dit artikel is beveiligd met een paswoord.  Geef het paswoord in om de reacties te lezen"
+
+#. Text in echo
+#: typebased/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dit artikel is beveiligd met een paswoord.  Geef het paswoord in om de reacties te lezen."
+
+#. Text in echo
+#: typebased/comments.php:68
+#: typebased/comments-legacy.php:86
+msgid "Username"
+msgstr "Gebruiksnaam"
+
+#. Text in echo
+#: typebased/comments.php:78
+#: typebased/comments-legacy.php:96
+msgid "Web Site"
+msgstr "Website"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "You must be"
+msgstr "Je moet"
+
+#. Text in function
+#: typebased/includes/theme-comments.php:20
+msgid "Your comment is awaiting moderation"
+msgstr "Je reactie wordt eerst nagelezen"
+
+#. Text in echo
+#: typebased/comments-legacy.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wordt eerst nagelezen"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "logged in"
+msgstr "Ingelogd"
+
+#. Text in echo
+#: typebased/comments.php:19
+msgid "to"
+msgstr "om"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "to post a comment."
+msgstr "om een reactie te schrijven."
+

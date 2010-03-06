@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: namaste <namaste@inbox.lt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+#, fuzzy
+msgid "% Comments"
+msgstr "% Komentarai"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+#, fuzzy
+msgid "&laquo; Older Entries"
+msgstr "Ankstesni įrašai &raquo;"
+
+#. Text in function
+#: typebased/comments.php:68
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:86
+#: typebased/comments-legacy.php:91
+#, fuzzy
+msgid "(required)"
+msgstr "(privaloma)"
+
+#. Text in echo
+#: typebased/footer.php:25
+msgid "2009 TypeBased. All Rights Reserved."
+msgstr "2009 TypeBased. Visos teisės saugomos."
+
+#. Text in echo
+#: typebased/archive.php:14
+#, fuzzy
+msgid "Archive by Author"
+msgstr "Archyvas pagal autorių"
+
+#. Text in echo
+#: typebased/archive.php:11
+#: typebased/archive.php:12
+#, fuzzy
+msgid "Archive for"
+msgstr "Archyvas"
+
+#. Text in echo
+#: typebased/archive.php:13
+#, fuzzy
+msgid "Archive for the year"
+msgstr "(0 nelimituojama)"
+
+#. Text in echo
+#: typebased/footer.php:17
+msgid "Articles"
+msgstr "Staripsniai"
+
+#. Text in echo
+#: typebased/comments.php:87
+#: typebased/comments-legacy.php:105
+#, fuzzy
+msgid "Comment"
+msgstr "Komentaras"
+
+#. Text in echo
+#: typebased/footer.php:18
+#, fuzzy
+msgid "Comments"
+msgstr "Komentarai"
+
+#. Text in echo
+#: typebased/comments.php:39
+#, fuzzy
+msgid "Comments are closed"
+msgstr "Komentarai uždaryti."
+
+#. Text in echo
+#: typebased/footer.php:29
+#, fuzzy
+msgid "Design by"
+msgstr "Sukurta"
+
+#. Text in function
+#: typebased/comments-legacy.php:36
+#, fuzzy
+msgid "Edit comment"
+msgstr "Keisti komentarą"
+
+#. Text in echo
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:91
+#, fuzzy
+msgid "Email"
+msgstr "El.paštas"
+
+#. Text in echo
+#: typebased/404.php:12
+#, fuzzy
+msgid "Error 404 - Page not found!"
+msgstr "Klaida 404 - Puslapis nerastas!"
+
+#. Text in echo
+#: typebased/comments-legacy.php:32
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: typebased/header.php:28
+#, fuzzy
+msgid "Home"
+msgstr "Pradžia"
+
+#. Text in echo
+#: typebased/footer.php:15
+msgid "If you enjoyed the post, make sure you subscribe to the RSS feed"
+msgstr "Jei jums patiko įrašas, prašome užsisakyti RSS"
+
+#. Text in echo
+#: typebased/comments-legacy.php:70
+#, fuzzy
+msgid "Leave a Comment"
+msgstr "Palikti komentarą"
+
+#. Text in function
+#: typebased/comments.php:51
+#, fuzzy
+msgid "Leave a Reply"
+msgstr "Palikte atsiliepimą"
+
+#. Text in function
+#: typebased/comments.php:51
+#, fuzzy
+msgid "Leave a Reply to %s"
+msgstr "Palikte atsiliepimą %s"
+
+#. Text in echo
+#: typebased/comments.php:65
+#, fuzzy
+msgid "Log out of this account"
+msgstr "Atsijungti nuo sąskaitos"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+#, fuzzy
+msgid "Logged in as"
+msgstr "Prisijungęs kaip"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+#, fuzzy
+msgid "Logout &raquo;"
+msgstr "Atsijungti &raquo;"
+
+#. Text in echo
+#: typebased/footer.php:5
+#, fuzzy
+msgid "Most Popular Articles"
+msgstr "Rasti daugiau įrašų archyve..."
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+#, fuzzy
+msgid "No Comments"
+msgstr "Komentarų dar nėra"
+
+#. Text in echo
+#: typebased/search.php:50
+msgid "No matches. Please try again, or use the navigation menus to find what you search for"
+msgstr "Nerasta. Prašome pabandyti dar kartą, arba naudoti navigacijos meniu surasti tai ko ieškote"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+#, fuzzy
+msgid "One Comment"
+msgstr "Išvalyti komentarą"
+
+#. Text in echo
+#: typebased/includes/theme-widgets.php:13
+#, fuzzy
+msgid "Photos on"
+msgstr "Paveikslėliai"
+
+#. Text in echo
+#: typebased/footer.php:29
+#, fuzzy
+msgid "Powered by"
+msgstr "Sukurta"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+#, fuzzy
+msgid "Recent Entries &raquo;"
+msgstr "Kiti įrašai &raquo;"
+
+#. Text in echo
+#: typebased/search.php:8
+#: typebased/search.php:45
+#, fuzzy
+msgid "Search results"
+msgstr "Paieškos rezultatai"
+
+#. Text in echo
+#: typebased/single.php:28
+#, fuzzy
+msgid "Sorry, no posts matched your criteria"
+msgstr "Atsiprašome, bet jokių įrašų, atitinkančių jūsų kriterijų, nerasta."
+
+#. Text in echo
+#: typebased/comments.php:92
+#: typebased/comments-legacy.php:110
+#, fuzzy
+msgid "Submit"
+msgstr "Pridėti komentarą"
+
+#. Text in echo
+#: typebased/footer.php:14
+#, fuzzy
+msgid "Subscribe to RSS"
+msgstr "Užsisakyti RSS naujienas"
+
+#. Text in echo
+#: typebased/archive.php:16
+#, fuzzy
+msgid "Tag Archives:"
+msgstr "Žymių archyvas:"
+
+#. Text in echo
+#: typebased/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Puslapis, kurį bandote pasiekti neegzistuoja arba buvo perkeltas. Prašome naudotis meniu arba paieškos lange surasti tai, ko jūs ieškote."
+
+#. Text in echo
+#: typebased/comments.php:7
+#, fuzzy
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Šis pranešimas yra apsaugota slaptažodžiu. Įveskite slaptažodį, norėdami peržiūrėti komentarus."
+
+#. Text in echo
+#: typebased/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Šis pranešimas yra apsaugota slaptažodžiu. Įveskite slaptažodį, norėdami peržiūrėti komentarus."
+
+#. Text in echo
+#: typebased/comments.php:68
+#: typebased/comments-legacy.php:86
+msgid "Username"
+msgstr "Vartotojo vardas"
+
+#. Text in echo
+#: typebased/comments.php:78
+#: typebased/comments-legacy.php:96
+msgid "Web Site"
+msgstr "Interneto puslapis"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+#, fuzzy
+msgid "You must be"
+msgstr "Jūs turite būti"
+
+#. Text in function
+#: typebased/includes/theme-comments.php:20
+#, fuzzy
+msgid "Your comment is awaiting moderation"
+msgstr "Jūsų komenatras laikia patvirtinimo"
+
+#. Text in echo
+#: typebased/comments-legacy.php:39
+#, fuzzy
+msgid "Your comment is awaiting moderation."
+msgstr "Jūsų komenatras laikia patvirtinimo"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+#, fuzzy
+msgid "logged in"
+msgstr "prisijungęs kaip"
+
+#. Text in echo
+#: typebased/comments.php:19
+#, fuzzy
+msgid "to"
+msgstr "į"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+#, fuzzy
+msgid "to post a comment."
+msgstr "įrašyti komentarą"
+

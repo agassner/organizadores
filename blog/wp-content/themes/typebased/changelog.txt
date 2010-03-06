@@ -1,0 +1,38 @@
+*** TypeBased Changelog ***
+
+2010.01.18 - version 2.1.2
+ * header.php - Added dropdowns to navigation
+ * style.css - Added styling for new dropdown menus
+ * includes/js/superfish.js - Added superfish js file
+ * includes/js/menu.js - Added menu js file
+ * includes/theme-js.php - Included superfish file in theme
+
+2009.08.30 - version 2.1.1
+ * /functions/* - Core Framework 1.0.7
+ * /lang/typebased.po - Added language file. See: http://www.woothemes.com/2009/08/how-to-translate-a-theme/
+ * Added gettext functions to template php files to support localization.
+
+2009.08.13 - version 2.1
+  * /functions/ - Core Framework Update to V.1.0.6
+  * /includes/theme-options.php - Added Custom CSS option
+
+2009.07.29 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/sidebar-init.php - Added additional homepage sidebar (for magazine layout)
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+  * includes/theme-options.php - Added new options for navigation and tweaked some older options
+  * header.php - Tweaked page navigation
+  * footer.php - Fixed query_posts includes, changed references to /includes/popular.php
+  * includes/popular.php - Included in theme-functions.php
+  * index.php - Added functionality to toggle between the_content & the_excerpt for posts, integrated woo_get_image()
+	archive.php
+	search.php
+  * thumb.php - Added
+
+2008.11.08 - version 1.0.0
+  * First release!

@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hans Hamid <hh@hanshamid.web.id>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "% Comments"
+msgstr "% Komentar"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Tulisan Sebelumnya"
+
+#. Text in function
+#: typebased/comments.php:68
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:86
+#: typebased/comments-legacy.php:91
+msgid "(required)"
+msgstr "(harus diisi)"
+
+#. Text in echo
+#: typebased/footer.php:25
+msgid "2009 TypeBased. All Rights Reserved."
+msgstr "2009 TypeBased. All Rights Reserved."
+
+#. Text in echo
+#: typebased/archive.php:14
+msgid "Archive by Author"
+msgstr "Arsip oleh Penulis"
+
+#. Text in echo
+#: typebased/archive.php:11
+#: typebased/archive.php:12
+msgid "Archive for"
+msgstr "Arsip untuk"
+
+#. Text in echo
+#: typebased/archive.php:13
+msgid "Archive for the year"
+msgstr "Artikel tahun ini"
+
+#. Text in echo
+#: typebased/footer.php:17
+msgid "Articles"
+msgstr "Artikel"
+
+#. Text in echo
+#: typebased/comments.php:87
+#: typebased/comments-legacy.php:105
+msgid "Comment"
+msgstr "Komentar"
+
+#. Text in echo
+#: typebased/footer.php:18
+msgid "Comments"
+msgstr "Komentar"
+
+#. Text in echo
+#: typebased/comments.php:39
+msgid "Comments are closed"
+msgstr "Komentar ditutup"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Design by"
+msgstr "Design oleh"
+
+#. Text in function
+#: typebased/comments-legacy.php:36
+msgid "Edit comment"
+msgstr "Ubah Komentar"
+
+#. Text in echo
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:91
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: typebased/404.php:12
+msgid "Error 404 - Page not found!"
+msgstr "Error 404 - Halaman tidak ditemukan!"
+
+#. Text in echo
+#: typebased/comments-legacy.php:32
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: typebased/header.php:28
+msgid "Home"
+msgstr "Home"
+
+#. Text in echo
+#: typebased/footer.php:15
+msgid "If you enjoyed the post, make sure you subscribe to the RSS feed"
+msgstr "Jika anda menikmati tulisan ini, pastikan anda daftar RSS feed"
+
+#. Text in echo
+#: typebased/comments-legacy.php:70
+msgid "Leave a Comment"
+msgstr "Tinggalkan Komentar"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply"
+msgstr "Tinggalkan Balasan"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Tinggalkan Balasan untuk %s"
+
+#. Text in echo
+#: typebased/comments.php:65
+msgid "Log out of this account"
+msgstr "Log out dari akun ini"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logged in as"
+msgstr "Logged in sebagai"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logout &raquo;"
+msgstr "Logout &raquo;"
+
+#. Text in echo
+#: typebased/footer.php:5
+msgid "Most Popular Articles"
+msgstr "Artikel Paling Populer"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "No Comments"
+msgstr "Tidak Ada Komentar"
+
+#. Text in echo
+#: typebased/search.php:50
+msgid "No matches. Please try again, or use the navigation menus to find what you search for"
+msgstr "Tidak ada yang cocok. Silakan coba lagi, atau gunakan menu navigasi untuk mencari"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "One Comment"
+msgstr "Satu Komentar"
+
+#. Text in echo
+#: typebased/includes/theme-widgets.php:13
+msgid "Photos on"
+msgstr "Foto pada"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Powered by"
+msgstr "Didukung oleh"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "Recent Entries &raquo;"
+msgstr "Tulisan Sebelumnya &raquo;"
+
+#. Text in echo
+#: typebased/search.php:8
+#: typebased/search.php:45
+msgid "Search results"
+msgstr "Hasil Pencarian"
+
+#. Text in echo
+#: typebased/single.php:28
+msgid "Sorry, no posts matched your criteria"
+msgstr "Maaf, tidak ada tulisan yang cocok dengan kriteria"
+
+#. Text in echo
+#: typebased/comments.php:92
+#: typebased/comments-legacy.php:110
+msgid "Submit"
+msgstr "Masukkan"
+
+#. Text in echo
+#: typebased/footer.php:14
+msgid "Subscribe to RSS"
+msgstr "Daftar RSS"
+
+#. Text in echo
+#: typebased/archive.php:16
+msgid "Tag Archives:"
+msgstr "Arsip Tag:"
+
+#. Text in echo
+#: typebased/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Halaman yang anda ingin lihat tidak ada, atau telah dipindahkan. Silakan gunakan menu atau pencarian untuk mencari."
+
+#. Text in echo
+#: typebased/comments.php:7
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Tulisan ini dilindungi password. Masukkan password untuk melihat komentar"
+
+#. Text in echo
+#: typebased/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Tulisan ini dilindungi password. Masukkan password untuk melihat komentar."
+
+#. Text in echo
+#: typebased/comments.php:68
+#: typebased/comments-legacy.php:86
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#. Text in echo
+#: typebased/comments.php:78
+#: typebased/comments-legacy.php:96
+msgid "Web Site"
+msgstr "Web Site"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "You must be"
+msgstr "Anda pasti"
+
+#. Text in function
+#: typebased/includes/theme-comments.php:20
+msgid "Your comment is awaiting moderation"
+msgstr "Komentar anda sedang dimoderasi"
+
+#. Text in echo
+#: typebased/comments-legacy.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Komentar anda sedang dimoderasi."
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "logged in"
+msgstr "logged in"
+
+#. Text in echo
+#: typebased/comments.php:19
+msgid "to"
+msgstr "untuk"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "to post a comment."
+msgstr "untuk menuliskan komentar."
+

@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "% Comments"
+msgstr "% commenti"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articoli precedenti"
+
+#. Text in function
+#: typebased/comments.php:68
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:86
+#: typebased/comments-legacy.php:91
+msgid "(required)"
+msgstr "(obbligatorio)"
+
+#. Text in echo
+#: typebased/footer.php:25
+msgid "2009 TypeBased. All Rights Reserved."
+msgstr "2009 TypeBased. Tutti i Diritti Riservati."
+
+#. Text in echo
+#: typebased/archive.php:14
+msgid "Archive by Author"
+msgstr "Archivio per Autore"
+
+#. Text in echo
+#: typebased/archive.php:11
+#: typebased/archive.php:12
+msgid "Archive for"
+msgstr "Archivio per"
+
+#. Text in echo
+#: typebased/archive.php:13
+msgid "Archive for the year"
+msgstr "Archivio per l'anno"
+
+#. Text in echo
+#: typebased/footer.php:17
+msgid "Articles"
+msgstr "Articoli"
+
+#. Text in echo
+#: typebased/comments.php:87
+#: typebased/comments-legacy.php:105
+msgid "Comment"
+msgstr "Commenti"
+
+#. Text in echo
+#: typebased/footer.php:18
+msgid "Comments"
+msgstr "Commenti"
+
+#. Text in echo
+#: typebased/comments.php:39
+msgid "Comments are closed"
+msgstr "I commenti sono chiusi"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Design by"
+msgstr "Design by"
+
+#. Text in function
+#: typebased/comments-legacy.php:36
+msgid "Edit comment"
+msgstr "Modifica commento"
+
+#. Text in echo
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:91
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: typebased/404.php:12
+msgid "Error 404 - Page not found!"
+msgstr "Errore 404 - Pagina non trovata!"
+
+#. Text in echo
+#: typebased/comments-legacy.php:32
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: typebased/header.php:28
+msgid "Home"
+msgstr "Home"
+
+#. Text in echo
+#: typebased/footer.php:15
+msgid "If you enjoyed the post, make sure you subscribe to the RSS feed"
+msgstr "Se hai gradito questo articolo, abbonati al nostro feed RSS"
+
+#. Text in echo
+#: typebased/comments-legacy.php:70
+msgid "Leave a Comment"
+msgstr "Lascia un Commento"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply"
+msgstr "Lascia un Commento"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Lascia un Commento a %s"
+
+#. Text in echo
+#: typebased/comments.php:65
+msgid "Log out of this account"
+msgstr "Esci da questo account"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logged in as"
+msgstr "Connesso come"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logout &raquo;"
+msgstr "Esci &raquo;"
+
+#. Text in echo
+#: typebased/footer.php:5
+msgid "Most Popular Articles"
+msgstr "Articoli Popolari"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "No Comments"
+msgstr "Nessun Commento"
+
+#. Text in echo
+#: typebased/search.php:50
+msgid "No matches. Please try again, or use the navigation menus to find what you search for"
+msgstr "Nessuna corrispondenza. Per favore prova ancora, o usa i menu di navigazione per trovare ci&ograve; che cerchi"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "One Comment"
+msgstr "Un Commento"
+
+#. Text in echo
+#: typebased/includes/theme-widgets.php:13
+msgid "Photos on"
+msgstr "Foto su"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Powered by"
+msgstr "Powered by"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "Recent Entries &raquo;"
+msgstr "Articoli pi&ugrave; recenti &raquo;"
+
+#. Text in echo
+#: typebased/search.php:8
+#: typebased/search.php:45
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+#. Text in echo
+#: typebased/single.php:28
+msgid "Sorry, no posts matched your criteria"
+msgstr "Ci dispiace, nessun articolo soddisfa i tuoi criteri"
+
+#. Text in echo
+#: typebased/comments.php:92
+#: typebased/comments-legacy.php:110
+msgid "Submit"
+msgstr "Invia"
+
+#. Text in echo
+#: typebased/footer.php:14
+msgid "Subscribe to RSS"
+msgstr "Abbonati al feed RSS"
+
+#. Text in echo
+#: typebased/archive.php:16
+msgid "Tag Archives:"
+msgstr "Archivi Tag:"
+
+#. Text in echo
+#: typebased/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "La pagina che stai cercando di raggiungere non esiste, o &egrave; stata spostata. Per favore usa i menu o la funzione cerca per trovare ci&ograve; che stai cercando."
+
+#. Text in echo
+#: typebased/comments.php:7
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Questo articolo &egrave; protetto da password. Digita la password per vedere i commenti"
+
+#. Text in echo
+#: typebased/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Questo articolo &egrave; protetto da password. Digita la password per vedere i commenti."
+
+#. Text in echo
+#: typebased/comments.php:68
+#: typebased/comments-legacy.php:86
+msgid "Username"
+msgstr "Nome utente"
+
+#. Text in echo
+#: typebased/comments.php:78
+#: typebased/comments-legacy.php:96
+msgid "Web Site"
+msgstr "Sito Web"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "You must be"
+msgstr "Devi essere"
+
+#. Text in function
+#: typebased/includes/theme-comments.php:20
+msgid "Your comment is awaiting moderation"
+msgstr "Il tuo commento &egrave; in attesa di essere moderato"
+
+#. Text in echo
+#: typebased/comments-legacy.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento &egrave; in attesa di essere moderato."
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "logged in"
+msgstr "connesso"
+
+#. Text in echo
+#: typebased/comments.php:19
+msgid "to"
+msgstr "a"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "to post a comment."
+msgstr "per lasciare un commento."
+

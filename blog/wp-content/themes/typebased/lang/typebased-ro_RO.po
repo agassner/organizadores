@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "% Comments"
+msgstr "% Comentarii"
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articole mai vechi"
+
+#. Text in function
+#: typebased/comments.php:68
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:86
+#: typebased/comments-legacy.php:91
+msgid "(required)"
+msgstr "(necesar)"
+
+#. Text in echo
+#: typebased/footer.php:25
+msgid "2009 TypeBased. All Rights Reserved."
+msgstr "2009 TzpeBased. Toate drepturile rezervate."
+
+#. Text in echo
+#: typebased/archive.php:14
+msgid "Archive by Author"
+msgstr "Arhiva per autor"
+
+#. Text in echo
+#: typebased/archive.php:11
+#: typebased/archive.php:12
+msgid "Archive for"
+msgstr "Arhiva pentru"
+
+#. Text in echo
+#: typebased/archive.php:13
+msgid "Archive for the year"
+msgstr "Arhiva pentru anul"
+
+#. Text in echo
+#: typebased/footer.php:17
+msgid "Articles"
+msgstr "Articole"
+
+#. Text in echo
+#: typebased/comments.php:87
+#: typebased/comments-legacy.php:105
+msgid "Comment"
+msgstr "Comentariu"
+
+#. Text in echo
+#: typebased/footer.php:18
+msgid "Comments"
+msgstr "Comentarii"
+
+#. Text in echo
+#: typebased/comments.php:39
+msgid "Comments are closed"
+msgstr "Nu se mai pot face comentarii"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Design by"
+msgstr "Design de"
+
+#. Text in function
+#: typebased/comments-legacy.php:36
+msgid "Edit comment"
+msgstr "Modifică acest comentariu"
+
+#. Text in echo
+#: typebased/comments.php:73
+#: typebased/comments-legacy.php:91
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: typebased/404.php:12
+msgid "Error 404 - Page not found!"
+msgstr "Eroare 404 - Pagina nu a fost găsită!"
+
+#. Text in echo
+#: typebased/comments-legacy.php:32
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: typebased/header.php:28
+msgid "Home"
+msgstr "Prima pagină"
+
+#. Text in echo
+#: typebased/footer.php:15
+msgid "If you enjoyed the post, make sure you subscribe to the RSS feed"
+msgstr "Dacă v-a plăcut acest articol, subscrie la feedul RSS"
+
+#. Text in echo
+#: typebased/comments-legacy.php:70
+msgid "Leave a Comment"
+msgstr "Scrie un comentariu"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply"
+msgstr "Scrie un răspuns"
+
+#. Text in function
+#: typebased/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Scrie un răspuns către %"
+
+#. Text in echo
+#: typebased/comments.php:65
+msgid "Log out of this account"
+msgstr "Ieşire din cont"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logged in as"
+msgstr "Autentificat ca"
+
+#. Text in echo
+#: typebased/comments.php:65
+#: typebased/comments-legacy.php:82
+msgid "Logout &raquo;"
+msgstr "Ieşire &raquo;"
+
+#. Text in echo
+#: typebased/footer.php:5
+msgid "Most Popular Articles"
+msgstr "Cele mai populare articole"
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "No Comments"
+msgstr "Fără comentarii"
+
+#. Text in echo
+#: typebased/search.php:50
+msgid "No matches. Please try again, or use the navigation menus to find what you search for"
+msgstr "Nici un rezultat. Vă rugăm încercaţi din nou sau folosiţi meniul de navigare pentru a găsi ceea ce căutaţi."
+
+#. Text in function
+#: typebased/comments.php:19
+#: typebased/comments-legacy.php:24
+msgid "One Comment"
+msgstr "Un comentariu"
+
+#. Text in echo
+#: typebased/includes/theme-widgets.php:13
+msgid "Photos on"
+msgstr "Imagini pe"
+
+#. Text in echo
+#: typebased/footer.php:29
+msgid "Powered by"
+msgstr "Rulează "
+
+#. Text in function
+#: typebased/archive.php:53
+#: typebased/search.php:40
+#: typebased/index.php:41
+msgid "Recent Entries &raquo;"
+msgstr "Articole recente &raquo;"
+
+#. Text in echo
+#: typebased/search.php:8
+#: typebased/search.php:45
+msgid "Search results"
+msgstr "Rezultatele căutării"
+
+#. Text in echo
+#: typebased/single.php:28
+msgid "Sorry, no posts matched your criteria"
+msgstr "Ne pare rău, nici un articol nu a corespuns criteriului dumneavoastră"
+
+#. Text in echo
+#: typebased/comments.php:92
+#: typebased/comments-legacy.php:110
+msgid "Submit"
+msgstr "Trimite"
+
+#. Text in echo
+#: typebased/footer.php:14
+msgid "Subscribe to RSS"
+msgstr "Subscrie la feedul RSS"
+
+#. Text in echo
+#: typebased/archive.php:16
+msgid "Tag Archives:"
+msgstr "Arhive tag-uri:"
+
+#. Text in echo
+#: typebased/404.php:13
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Pagina pe care încercaţi să o accesaţi nu există sau a fost mutată. Vă rugăm folosiţi meniurile sau funcţia de căutare pentru a găsi ceea ce căutaţi."
+
+#. Text in echo
+#: typebased/comments.php:7
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "Acest articol este protejat prin parolă. Introduceţi parola pentru a vedea comentariile."
+
+#. Text in echo
+#: typebased/comments-legacy.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Acest articol este protejat prin parolă. Introduceţi parola pentru a vedea comentariile."
+
+#. Text in echo
+#: typebased/comments.php:68
+#: typebased/comments-legacy.php:86
+msgid "Username"
+msgstr "Utilizator"
+
+#. Text in echo
+#: typebased/comments.php:78
+#: typebased/comments-legacy.php:96
+msgid "Web Site"
+msgstr "Site"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "You must be"
+msgstr "Tu eşti"
+
+#. Text in function
+#: typebased/includes/theme-comments.php:20
+msgid "Your comment is awaiting moderation"
+msgstr "Comentariul dumneavoastră urmează a fi moderat."
+
+#. Text in echo
+#: typebased/comments-legacy.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul dumneavoastră urmează a fi moderat."
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "logged in"
+msgstr "autentificat"
+
+#. Text in echo
+#: typebased/comments.php:19
+msgid "to"
+msgstr "către"
+
+#. Text in echo
+#: typebased/comments.php:58
+#: typebased/comments-legacy.php:74
+msgid "to post a comment."
+msgstr "pentru a publica un comentariu."
+
