@@ -2,9 +2,30 @@
 
 {% block title %}Organizadores plásticos para o lar - Contato{% endblock %}
 
+{% block script %}
+	<script type="text/javascript" src="media/js/contact.js"></script>
+{% endblock %}
+
 {% block content %}
 
-form de contato...
+<div id="contact" class="rounded-corners highlight-border">
+    <div id="form">
+        <form id="form-contact">
+        <div class="label-form">Nome:</div>
+        <div class="item-form"><input type="text" name="name" id="name" size="30"></div>
+        <br/>
+
+        <div class="label-form">E-mail:</div>
+        <div class="item-form"><input type="text" name="email" id="email" size="30"></div>
+        <br/>
+
+        <div class="label-form">Mensagem:</div>
+        <div class="item-form"><textarea name="message" id="message" rows="10" cols="30"></textarea></div>
+        <br/>
+        <a href="javascript:void(0);" class="btn-send rounded-corners-button" id="btn-contact-send">enviar</a>
+        </form>
+    </div>
+</div>
 
 {% endblock %}
 

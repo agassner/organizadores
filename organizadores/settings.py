@@ -8,7 +8,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Administrator', 'admin@organizadores.com.br'),
+    ('Administrador', 'administrador@organizadores.com.br'),
 )
 
 LOCAL_FILE = lambda *x: abspath(join(dirname(__file__), *x))
@@ -83,4 +83,10 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'organizadores.products',
 )
+
+EMAIL_HOST = 'smtp.webfaction.com'
+EMAIL_HOST_USER = 'organizadores'
+EMAIL_HOST_PASSWORD = 'b35f473a'
+DEFAULT_FROM_EMAIL = 'administrador@organizadores.com.br'
+SERVER_EMAIL = 'organizadores@organizadores.com.br'
 

@@ -7,7 +7,9 @@
 	<link rel="stylesheet" href="media/css/style.css" type="text/css" />
 
 	<script type="text/javascript" src="media/js/jquery-1.4.1.min.js"></script>
+    {% block script %}
 	<script type="text/javascript" src="media/js/script.js"></script>
+    {% endblock %}
 </head>
 
 <body>
@@ -18,11 +20,11 @@
 
 <div id="menu">
   <div id="items">
-      <div id="item"><a href="index.html">Home</a></div>
-      <div id="item"><a href="produtos.html">Produtos</a></div>
+      <div id="item"><a href="/">Home</a></div>
+      <div id="item"><a href="/produtos">Produtos</a></div>
       <div id="item"><a href="/blog">Blog</a></div>
       <div id="item"><a href="/blog/sobre">Sobre nós</a></div>
-      <div id="item"><a href="contato.html">Contato</a></div>
+      <div id="item"><a href="/contato">Contato</a></div>
   </div>
 </div>
 
@@ -137,7 +139,7 @@
 
 <div class="footer">
     <div>
-        <a href="index.html">Home</a> &nbsp;|&nbsp; <a href="produtos.html">Produtos</a> &nbsp;|&nbsp; <a href="/blog">Blog</a> &nbsp;|&nbsp; <a href="/blog/sobre">Sobre nós &nbsp;|&nbsp; <a href="contato.html">Contato<a/>
+        <a href="/">Home</a> &nbsp;|&nbsp; <a href="/produtos">Produtos</a> &nbsp;|&nbsp; <a href="/blog">Blog</a> &nbsp;|&nbsp; <a href="/blog/sobre">Sobre nós &nbsp;|&nbsp; <a href="/contato">Contato<a/>
         &nbsp;&nbsp;&nbsp; &copy; Copyright 2010. All rights reserved.
     </div>
 </div>

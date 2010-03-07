@@ -61,22 +61,22 @@ function startStopSlider() {
 	var totalMoverwidth = numPanels * panelWidth;
 	$("#mover").css("width", totalMoverwidth);
 
-	$("#highlight-slide").append('<a href="javascript:void(0);" id="slider-stopper" class="rounded-corners-button">Stop</a>');
+	$("#highlight-slide").append('<a href="javascript:void(0);" id="slider-stopper" class="rounded-corners-button">Parar</a>');
 
 	sliderIntervalID = setInterval(function(){
 		doMove(panelWidth, tooFar);
 	}, delayLength);
 	
 	$("#slider-stopper").click(function(){
-		if ($(this).text() == "Stop") {
+		if ($(this).text() == "Parar") {
 			clearInterval(sliderIntervalID);
-		 	$(this).text("Start");
+		 	$(this).text("Iniciar");
 		}
 		else {
 			sliderIntervalID = setInterval(function(){
 				doMove(panelWidth, tooFar);
 			}, delayLength);
-		 	$(this).text("Stop");
+		 	$(this).text("Parar");
 		}
 		 
 	});
@@ -97,7 +97,7 @@ function loadSlideProduct() {
 }
 
 /**
- * Executes a manual slider.
+ * Execute the product slider.
  */
 function slideProduct(direction) {
     var $productsMover = $("#products-mover");
@@ -124,8 +124,11 @@ function slideProduct(direction) {
     }
 }
 
+/**
+ * Load the data/content on the box highlight.
+ */
 function loadHighlightsBoxContent() {
-    var url = "http://localhost/products/highlights/box";
+    var url = "/products/highlights/box";
 
     $.get(url, function(data) {
         $.each(data, function(i, item) {
@@ -139,6 +142,9 @@ function loadHighlightsBoxContent() {
     });
 }
 
+/**
+ * On load.
+ */
 $(document).ready(function() {
 	startStopSlider();
     loadSlideProduct();
