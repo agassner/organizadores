@@ -15,14 +15,14 @@ def contact_send(request):
     message = request.POST.get('message', '')
 
     if name and email and message:
-        #try:
-        #    send_mail("Organizadores.com.br - Contato", message, email, ['contato@organizadores.com.br'])
-        #except BadHeaderError:
-        #    return HttpResponse("{result: 'fail', message: 'Invalid header found.'}", mimetype="application/json")
+        try:
+            send_mail("Organizadores.com.br - Contato", message, email, ['contato@organizadores.com.br'])
+        except BadHeaderError:
+            return HttpResponse('{"result": "fail", "message": "Invalid header found."}', mimetype="application/json")
 
-        return HttpResponse('[{"result": "success", "message": "Contato enviado com sucesso. Em breve retornaremos a sua mensagem."}]', mimetype="application/json")
+        return HttpResponse('{"result": "success", "message": "Muito obrigado pelo contato. Em breve retornaremos a sua mensagem."}', mimetype="application/json")
     else:
-        return HttpResponse('[{"result": "fail", "message": "Favor preencher todos os campos."}]', mimetype="application/json")
+        return HttpResponse('{"result": "fail", "message": "Favor preencher todos os campos para o envio do contato."}', mimetype="application/json")
 
 def products(request):
     return render_to_response('produtos.html')

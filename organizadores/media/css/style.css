@@ -178,7 +178,7 @@ a img {
 
 #contact {
     width: 648px;
-    height: 364px;
+    height: 400px;
     margin: auto;
     background: white;
 }
@@ -198,6 +198,7 @@ a img {
 #contact #form .item-form input, #contact #form .item-form textarea {
     width: 300px;
     border: 1px solid #dfdfdf;
+    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     font-size: 12px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -209,6 +210,27 @@ a img {
     background: #D0D9E2;
     padding: 3px 12px;
     text-align: center;
+}
+
+.loading {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    background: url(../images/loader.gif) no-repeat center center;
+}
+
+.contact-message-success {
+    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
+    font-size: 12px;
+    margin: 2em;
+    color: #6488A5;
+}
+
+.contact-message-fail {
+    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
+    font-size: 12px;
+    margin: 2em;
+    color: red;
 }
 
 /* footer styles */
