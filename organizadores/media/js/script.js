@@ -101,7 +101,7 @@ function loadSlideProduct() {
  */
 function slideProduct(direction) {
     var $productsMover = $("#products-mover");
-    var elementWidth = parseInt($("#products-slide").css("width")) + 10;
+    var elementWidth = parseInt($(".products-slide").css("width")) + 10;
     var maxMovement = parseInt($productsMover.css("width")) - elementWidth;
     var position = parseInt($productsMover.css("left"));
 
@@ -125,6 +125,23 @@ function slideProduct(direction) {
 }
 
 /**
+ * Load the data/content on the slide highlight.
+ */
+function loadHighlightsSlideContent() {
+    var url = "/products/highlights/slide";
+
+    $.get(url, function(data) {
+        $.each(data, function(i, item) {
+            //var $highlightVertical = $("#highlight-vertical-" + (i + 1));
+            //$highlightVertical.find("#highlight-title").text(item.fields.title);
+            //$highlightVertical.find("#highlight-link").attr("href", item.fields.link);
+            //$highlightVertical.find("#highlight-image").attr("src", "/media/" + item.fields.photo);
+            //$highlightVertical.find("#highlight-content").text(item.fields.content);
+        });
+    });
+}
+
+/**
  * Load the data/content on the box highlight.
  */
 function loadHighlightsBoxContent() {
@@ -134,9 +151,27 @@ function loadHighlightsBoxContent() {
         $.each(data, function(i, item) {
             var $highlightVertical = $("#highlight-vertical-" + (i + 1));
             $highlightVertical.find("#highlight-title").text(item.fields.title);
-            // $highlightVertical.find("#highlight-link").text(item.fields.);
-            // $highlightVertical.find("#highlight-image");
+            $highlightVertical.find("#highlight-link").attr("href", item.fields.link);
+            $highlightVertical.find("#highlight-image").attr("src", "/media/" + item.fields.photo);
             $highlightVertical.find("#highlight-content").text(item.fields.content);
+        });
+        
+    });
+}
+
+/**
+ * Load the data/content on the top list highlight.
+ */
+function loadHighlightsTopListContent() {
+    var url = "/products/highlights/top";
+
+    $.get(url, function(data) {
+        var $highlightHorizontal = $("#highlight-horizontal");
+        $.each(data, function(i, item) {
+            var $productsSlide = $highlightHorizontal.find("#products-slide-" + (i + 1));
+            $productsSlide.find("#highlight-link").attr("href", item.fields.link);
+            $productsSlide.find("#highlight-image").attr("src", "/media/" + item.fields.photo);
+            $productsSlide.find("#highlight-image").attr("alt", item.fields.title);
         });
         
     });
@@ -148,6 +183,8 @@ function loadHighlightsBoxContent() {
 $(document).ready(function() {
 	startStopSlider();
     loadSlideProduct();
+    loadHighlightsSlideContent();
     loadHighlightsBoxContent();
+    loadHighlightsTopListContent()
 });
 

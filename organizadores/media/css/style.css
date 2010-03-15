@@ -316,7 +316,7 @@ a img {
     position: relative;
 }
 
-#products-slide {
+.products-slide {
     width: 280px;
     height: 125px;
     float: left;
