@@ -132,11 +132,11 @@ function loadHighlightsSlideContent() {
 
     $.get(url, function(data) {
         $.each(data, function(i, item) {
-            //var $highlightVertical = $("#highlight-vertical-" + (i + 1));
-            //$highlightVertical.find("#highlight-title").text(item.fields.title);
-            //$highlightVertical.find("#highlight-link").attr("href", item.fields.link);
-            //$highlightVertical.find("#highlight-image").attr("src", "/media/" + item.fields.photo);
-            //$highlightVertical.find("#highlight-content").text(item.fields.content);
+            var $highlightSlide = $("#slide-" + (i + 2));
+            $highlightSlide.find("div.head-slide").text(item.fields.title);
+            $highlightSlide.find("p").text(item.fields.content);
+            $highlightSlide.find("a").attr("href", item.fields.link);
+            $highlightSlide.find("img").attr("src", "/media/" + item.fields.photo);
         });
     });
 }
