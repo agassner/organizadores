@@ -272,6 +272,7 @@ a img {
     font-weight: normal;
     letter-spacing: -1px;
     color: #6488A5;
+    width: 360px;
     margin: 0;
 }
 .slide p, .slide h2 {
@@ -280,7 +281,7 @@ a img {
     font-weight: normal;
     line-height: 22px;
     color: #999999;
-    width: 300px;
+    width: 350px;
     margin: 5px 0;
 }
 .slide img {

@@ -57,6 +57,6 @@ class ProductHighlight(models.Model):
         ordering = ['creation_date']
 
 class ProductHighlightAdmin(admin.ModelAdmin):
-    #list_display = ('title', 'product.name', 'area', 'creation_date')
     list_display = ('title', 'product', 'area', 'creation_date')
+    list_filter = ['area']
 
