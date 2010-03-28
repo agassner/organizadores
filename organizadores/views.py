@@ -2,6 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.core.mail import send_mail, BadHeaderError
+from organizadores.products.models import Product
 
 def index(request):
     return render_to_response('base.html')
@@ -25,7 +26,8 @@ def contact_send(request):
         return HttpResponse('{"result": "fail", "message": "Favor preencher todos os campos para o envio do contato."}', mimetype="application/json")
 
 def products(request):
-    return render_to_response('produtos.html')
+    products_list = Product.objects.all()
+    return render_to_response('produtos.html', {'products_list': products_list})
 
 def preview(request):
     return render_to_response('preview.html')

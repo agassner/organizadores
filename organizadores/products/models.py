@@ -16,7 +16,8 @@ class Category(models.Model):
 class Product(models.Model):
     category = models.ForeignKey('Category', verbose_name="Categoria")
     name = models.CharField(null=False, blank=False, max_length=200, verbose_name="Nome")
-    description = models.TextField(verbose_name="Descrição")
+    description = models.TextField(max_length=300, verbose_name="Descrição")
+    full_description = models.TextField(verbose_name="Descrição detalhada")
     photo = models.ImageField(upload_to='uploaded', db_column='photo', blank=True, verbose_name="Foto")
     price = models.DecimalField(max_digits=5, decimal_places=2, verbose_name="Preço")
     creation_date = models.DateTimeField(auto_now_add=True, verbose_name="Data de criação")

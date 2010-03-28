@@ -2,9 +2,37 @@
 
 {% block title %}Organizadores plásticos para o lar - Produtos{% endblock %}
 
+{% block style %}
+	<link rel="stylesheet" href="media/css/custom/jquery-ui-1.8.custom.css" type="text/css" />
+{% endblock %}
+
+{% block script %}
+    <script type="text/javascript" src="media/js/jquery-ui-1.8.custom.min.js"></script>
+	<script type="text/javascript" src="media/js/products.js"></script>
+{% endblock %}
+
 {% block content %}
 
-lista de produtos...
+<div id="products_list">
+
+{% for product in products_list %}
+
+<div class="rounded-corners highlight-border product">
+    <h3 id="highlight-title">{{ product.name }}</h3>
+    <div id="line"></div>
+    <a href="javascript:viewProduct({{ product.id }})" id="highlight-link">
+        <img id="highlight-image" width="180" height="120" src="/media/uploaded/dsc_0016.jpg"/>
+        <p id="highlight-content">{{ product.description }}</p>
+    </a>
+</div>
+
+{% endfor %}
+
+</div>
+
+<div id="popin-dialog-modal" title="Basic modal dialog">
+	<p></p>
+</div>
 
 {% endblock %}
 
