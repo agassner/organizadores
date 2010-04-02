@@ -9,7 +9,7 @@ function viewProduct(id) {
 			modal: true,
             title: product.name
 		});
-        $popin.find("p").text(product.full_description);
+        $popin.find("p").html(product.full_description.replace(/\r\n/g, '<br/>'));
         /*
         $highlightVertical.find("#highlight-title").text(item.fields.title);
         $highlightVertical.find("#highlight-link").attr("href", item.fields.link);
@@ -17,5 +17,11 @@ function viewProduct(id) {
         $highlightVertical.find("#highlight-content").text(item.fields.content);
         */
     });
-
 }
+
+/**
+ * On load.
+ */
+$(document).ready(function() {
+    $("#popin-dialog-modal").hide();
+});

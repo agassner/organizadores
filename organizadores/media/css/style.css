@@ -63,7 +63,6 @@ a img {
 /* content styles */
 
 #content {
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     margin: 0 auto 0 auto;
     padding: 1em 2em;
     width: 960px;
@@ -184,7 +183,6 @@ a img {
 }
 
 #contact #form {
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     font-size: 12px;
     color: #6488A5;
     font-weight: bold;
@@ -198,7 +196,6 @@ a img {
 #contact #form .item-form input, #contact #form .item-form textarea {
     width: 300px;
     border: 1px solid #dfdfdf;
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     font-size: 12px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -220,14 +217,12 @@ a img {
 }
 
 .contact-message-success {
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     font-size: 12px;
     margin: 2em;
     color: #6488A5;
 }
 
 .contact-message-fail {
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     font-size: 12px;
     margin: 2em;
     color: red;
@@ -348,7 +343,6 @@ a img {
 /* products list */
 
 #products_list {
-    font-family: "Lucida Grande","Verdana","Arial","Bitstream Vera Sans","sans-serif";
     margin: 0 auto 0 auto;
     width: 864px;
     height: 690px;
@@ -385,5 +379,31 @@ a img {
 
 #popin-dialog-modal {
     font-size: 10px;
+}
+
+.ui-dialog-title {
+    font-size: 16px;
+}
+
+#popin-dialog-modal img {
+    margin: 10px 10px 10px 0;
+    border: 1px dotted #cfcfcf;
+    float: left;
+}
+
+#popin-dialog-modal p {
+    font-size: 12px;
+    color: #999999;
+    text-align: left;
+    float: left;
+    width: 275px;
+    margin: 10px 0 0 0;
+}
+
+#popin-dialog-modal .btn-buy {
+    background: #D0D9E2;
+    padding: 3px 12px;
+    margin: 10px 10px 0 0;
+    float: right;
 }
 
