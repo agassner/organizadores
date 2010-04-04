@@ -60,7 +60,5 @@ function sendContact() {
  */
 $(document).ready(function() {
     sendContact();
-    // adjusting the height
-    $("#content").height(450);
 });
 

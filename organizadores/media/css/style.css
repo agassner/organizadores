@@ -175,6 +175,8 @@ a img {
     font-size: 12px;
 }
 
+/* contact */
+
 #contact {
     width: 648px;
     height: 400px;
@@ -340,84 +342,7 @@ a img {
     padding: 3px 12px;
 }
 
-/* products list */
-
-#products_list {
-    margin: 0 auto 0 auto;
-    width: 864px;
-    height: 690px;
-    border: 0px solid #000000;
-}
-
-#products_list .product {
-    width: 200px;
-    height: 330px;
-    float: left;
-    text-align: center;
-    margin: 0.5em;
-}
-
-#products_list .product h3 {
-    margin: 10px 7px 5px 7px;
-    color: #585858;
-    font-size: 16px;
-    font-weight: normal;
-    height: 45px;
-}
-
-#products_list .product img {
-    margin: 12px 7px 7px 7px;
-    border: 1px dotted #cfcfcf;
-}
-
-#products_list .product p {
-    font-size: 12px;
-    color: #999999;
-    margin: 0 1em;
-    text-align: left;
-}
-
-#popin-dialog-modal {
-    font-size: 10px;
-}
-
-.ui-dialog-title {
-    font-size: 16px;
-}
-
-#popin-dialog-modal #product-image {
-    margin: 10px 10px 10px 0;
-    border: 1px dotted #cfcfcf;
-    float: left;
-}
-
-#popin-dialog-modal #product-content {
-    font-size: 12px;
-    color: #999999;
-    width: 275px;
-    margin: 10px 0 0 0;
-    float: left;
-}
-
-#popin-dialog-modal #product-text {
-    text-align: left;
-    margin: 0;
-}
-
-#popin-dialog-modal #product-price {
-    text-align: right;
-    margin: 15px 0 15px 0;
-}
-
-#popin-dialog-modal #product-button {
-    text-align: right;
-    margin: 15px 0 15px 0;
-}
-
-#popin-dialog-modal .btn-buy {
-    background: #D0D9E2;
-    padding: 3px 12px;
-}
+/* about */
 
 #about {
     width: 648px;
@@ -435,7 +360,7 @@ a img {
     a.visited: #6488A5;
 }
 
-#about #about-content a:hover,  #about #about-content a:visited, #about #about-content a:link {
+#about #about-content a:hover, #about #about-content a:visited, #about #about-content a:link {
     color: #6488A5;
     font-weight: bold;
 }
