@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     (r'^contato/?$', 'organizadores.views.contact'),
     (r'^contato/enviar?$', 'organizadores.views.contact_send'),
     (r'^produtos/?$', 'organizadores.views.products'),
+    (r'^sobre/?$', 'organizadores.views.about'),
     (r'^preview/?$', 'organizadores.views.preview'),
     (r'^$', 'organizadores.views.index'),
 )

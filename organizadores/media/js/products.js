@@ -9,13 +9,10 @@ function viewProduct(id) {
 			modal: true,
             title: product.name
 		});
-        $popin.find("p").html(product.full_description.replace(/\r\n/g, '<br/>'));
-        /*
-        $highlightVertical.find("#highlight-title").text(item.fields.title);
-        $highlightVertical.find("#highlight-link").attr("href", item.fields.link);
-        $highlightVertical.find("#highlight-image").attr("src", "/media/" + item.fields.photo);
-        $highlightVertical.find("#highlight-content").text(item.fields.content);
-        */
+        $popin.find("#product-image").attr("src", "/media/" + product.photo);
+        $popin.find("#product-text").html(product.full_description.replace(/\r\n/g, '<br/>'));
+        $popin.find("#product-price").html("R$ " + product.price);
+        $popin.find("#product-link").attr("href", product.buy_link);
     });
 }
 

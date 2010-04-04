@@ -21,7 +21,7 @@
     <h3 id="highlight-title">{{ product.name }}</h3>
     <div id="line"></div>
     <a href="javascript:viewProduct({{ product.id }})" id="highlight-link">
-        <img id="highlight-image" width="180" height="120" src="/media/uploaded/dsc_0016.jpg"/>
+        <img id="highlight-image" width="180" height="120" src="/media/{{ product.photo }}"/>
         <p id="highlight-content">{{ product.description }}</p>
     </a>
 </div>
@@ -31,9 +31,12 @@
 </div>
 
 <div id="popin-dialog-modal" title="Basic modal dialog">
-    <img width="270" height="180" src="/media/uploaded/dsc_0016.jpg"/>
-	<p></p>
-    <a href="#" class="btn-buy rounded-corners-button">compre já</a>
+    <img width="270" height="180" src="/media/images/1x1.gif" id="product-image" />
+    <div id="product-content">
+    	<p id="product-text"></p>
+        <p id="product-price"></p>
+        <p id="product-button"><a href="#" class="btn-buy rounded-corners-button" id="product-link">compre já</a></p>
+    </div>
 </div>
 
 {% endblock %}

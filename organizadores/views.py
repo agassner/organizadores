@@ -29,5 +29,8 @@ def products(request):
     products_list = Product.objects.all()
     return render_to_response('produtos.html', {'products_list': products_list})
 
+def about(request):
+    return render_to_response('sobre.html')
+
 def preview(request):
     return render_to_response('preview.html')

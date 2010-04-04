@@ -20,6 +20,7 @@ class Product(models.Model):
     full_description = models.TextField(verbose_name="Descrição detalhada")
     photo = models.ImageField(upload_to='uploaded', db_column='photo', blank=True, verbose_name="Foto")
     price = models.DecimalField(max_digits=5, decimal_places=2, verbose_name="Preço")
+    buy_link = models.CharField(max_length="300", verbose_name="Link para compra")
     creation_date = models.DateTimeField(auto_now_add=True, verbose_name="Data de criação")
 
     def __unicode__(self):

@@ -8,7 +8,7 @@ def list_products(request):
     return HttpResponse(data, mimetype="application/json")
 
 def get_product(request, product_id):
-    data = serializers.serialize("json", Product.objects.filter(pk=product_id), fields=("name", "description", "full_description", "price", "creation_date"), ensure_ascii=False)
+    data = serializers.serialize("json", Product.objects.filter(pk=product_id), ensure_ascii=False)
     return HttpResponse(data, mimetype="application/json")
 
 def list_categories(request):
